@@ -1,2 +1,2 @@
 # courses
-This is zerosack learning center courses repository which consist the chapter wise demo code files.
+This is Zerosack Learning Center Course Repository which contains chapter wise demo source code files for practices.
