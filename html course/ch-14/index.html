@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-14 Demo</title>
+</head>
+<style>
+    #wrapper {
+        width: 60%;
+        margin: auto;
+        padding: 32px;
+        background-color: #f0f0f0;
+    }
+</style>
+<body>
+    <div id="wrapper">
+        <h1>HTML Image Maps</h1>
+        <hr>
+        <img usemap="#worldmap" src="map1.png" alt="worldMap" style="width: 100%; height: 100%;">
+        <map name="worldmap">
+            <area shape="rect" coords="295,150,104,250" href="america.html" alt="America">
+            <area shape="rect" coords="230,300,350,450" href="brazil.html" alt="Brazil">
+            <area shape="rect" coords="550,200,750,350" href="india.html" alt="India">         
+        </map>
+    </div>
+</body>
+</html>
